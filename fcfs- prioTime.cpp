@@ -69,5 +69,10 @@ int main() {
         avtat += tat[i];
         cout << "\nP[" << id[i] << "]\t\t" << at[i] << "\t\t" << bt[i] << "\t\t" << pt[i] << "\t\t" << wt[i] << "\t\t" << tat[i];
     }
-   
+    
+    avwt /= n;
+    avtat /= n;
+    cout << "\n\nThe Average Waiting Time: " << avwt;
+    cout << "\nThe Average Turnaround Time: " << avtat;
+    return 0;
 }
